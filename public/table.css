@@ -1,0 +1,41 @@
+.tab1 {
+    padding-top: 100px;
+}
+
+.table1 {
+    width: 1100px;
+    border-color: #006d77;
+}
+
+.table1 td {
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: gray;
+}
+
+.table1 th {
+    font-size: 20px;
+    padding: 10px;
+    color: #006d77;
+}
+
+button.bt1 {
+    width: 80px;
+    height: 40px;
+    /* background-color: #006d77; */
+    background-image: linear-gradient(to bottom right, #006d77, #0db7c7);
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+
+button.bt2 {
+    /* background-color: #006d77; */
+    background-image: linear-gradient(to bottom right, #006d77, #0db7c7);
+    border-radius: 50%;
+    font-weight: 600;
+    color: white;
+    border: none;
+}

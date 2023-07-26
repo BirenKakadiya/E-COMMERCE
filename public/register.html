@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="shortcut icon" href="Assets/BK.jpg">
+</head>
+
+<body>
+
+    <section class="log-in-page">
+        <div class="sub-page">
+            <img src="Assets/Screenshot (229).png" alt="image from unsplash" class="img" />
+        </div>
+        <div class="main-page">
+            <div class="welcome">
+                <h2>Sign Up</h2>
+                <span class="guide">Please enter your details.</span>
+            </div>
+            <form class="form">
+                <label for="name" class="label">
+                    Name*
+                    <input name="name" type="text" class="input-field" id="uname" placeholder="Enter your name" required
+                        b />
+                </label>
+                <label for="email" class="label">
+                    Email*
+                    <input name="email" type="email" class="input-field" id="umail" placeholder="Enter your email"
+                        required />
+                </label>
+                <label for="password" class="label">
+                    Password*
+                    <input name="password" type="password" class="input-field" id="upass"
+                        placeholder="Enter your password" required />
+                </label>
+                <label for="number" class="label">
+                    Number*
+                    <input name="number" type="number" class="input-field" id="unum" placeholder="Enter your number" />
+                    <span id="lblError"></span>
+                    <p class="otp1" onclick="createotp()">Send OTP</p>
+                </label>
+                <label for="otp" class="label">
+                    <input name="number" type="number" class="input-field" id="otp" placeholder="Enter OTP" />
+                </label>
+
+
+
+                <button class="btn" onclick="alldata()">Sign in</button>
+            </form>
+            <p class="sign">Login Your Account /<a onclick="set()" style="cursor: pointer;"> Login</a></p>
+        </div>
+    </section>
+    <script src="register.js"></script>
+</body>
+
+</html>

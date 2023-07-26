@@ -1,0 +1,63 @@
+button.navbar-toggler {
+    background-color: #fff;
+}
+
+.re1 {
+    margin: 50px 0px 50px 0px;
+}
+
+div#carouselExampleAutoplaying {
+    margin-top: 50px;
+}
+
+.img1 {
+    border-radius: 30px;
+}
+
+.cd1 {
+    border: 2px solid #006d77;
+    border-radius: 30px;
+    padding: 10px;
+    color: #006d77;
+}
+
+.pdname {
+    text-align: center;
+}
+
+.pdprice {
+    text-align: center;
+}
+
+.mix-fashion {
+    margin-top: 40px;
+    color: #006d77;
+}
+
+.nm1 {
+    padding-top: 10px;
+}
+
+.img2 {
+    width: 636px;
+    height: 690px;
+    background-image: url(Assets/w3.jpg);
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.img3 {
+    width: 636px;
+    height: 319px;
+    background-image: url(Assets/img2.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.img4 {
+    width: 636px;
+    height: 319px;
+    background-image: url(Assets/k2.jpg);
+    background-position: center;
+    background-size: cover;
+}
